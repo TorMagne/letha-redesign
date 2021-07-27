@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --bg-color: #f9f7ee;
+  --orange: #de9e48;
+  --black: #000000;
+  --brown: #7a431d;
+  --white: #ffffff;
+  /* fonts */
+  --bebas-neue: "Bebas Neue", sans-serif;
+  --carrois-gothic: "Carrois Gothic", sans-serif;
+  --lato: "Lato", sans-serif;
+  /* border radius */
+  --border-radius: 0.625rem;
+  /* select */
+  --select-border: #de9e48;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}

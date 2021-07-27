@@ -1,0 +1,65 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3.3125rem;
+}
+
+.header-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3.3125rem;
+  margin-bottom: 3.125rem;
+  max-width: 37.5rem;
+}
+
+.header-para {
+  font-family: var(--carrois-gothic);
+  font-size: 1.125rem;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 1rem 0 5rem 0;
+  font-size: 1rem;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-tr {
+  background-color: var(--brown);
+  font-family: var(--bebas-neue);
+  font-size: 1.25rem;
+  color: var(--white);
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.content-table th,
+.content-table td {
+  padding: 0.75rem 0.9375rem;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--brown);
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .shoe-btn {
+    width: 15.625rem;
+    height: 3.75rem;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-heading {
+    font-size: 4rem;
+  }
+}

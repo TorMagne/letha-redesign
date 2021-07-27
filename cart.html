@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping cart</title>
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- global -->
+    <link rel="stylesheet" href="css/global.css" />
+    <!-- navigation -->
+    <link rel="stylesheet" href="css/navigation.css" />
+    <!-- cart css -->
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="nav container">
+      <div class="nav-wrapper">
+        <div class="hamburger">
+          <i class="bi bi-list" aria-label="menu icon"></i>
+        </div>
+        <div class="menu-icons">
+          <a class="nav-btn" href="cart.html">
+            <i class="bi bi-basket" aria-label="shoping cart"
+              ><span class="cart-number">0</span></i
+            ></a
+          >
+        </div>
+      </div>
+      <div class="menu slide">
+        <ul class="menu-list">
+          <li>
+            <a href="index.html" class="menu-ancer">Home</a>
+          </li>
+          <li>
+            <a href="mensshoes.html" class="menu-ancer">Men's shoes</a>
+          </li>
+          <li><a href="sizeguide.html" class="menu-ancer">Size guide</a></li>
+          <li><a href="contact.html" class="menu-ancer">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main container">
+      <h1 class="cart-title">Your cart</h1>
+      <div class="products"></div>
+    </main>
+    <script src="js/navigation.js"></script>
+    <script src="js/cart.js" type="module"></script>
+  </body>
+</html>
